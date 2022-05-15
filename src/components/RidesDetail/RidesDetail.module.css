@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+.filterHeader {
+  background-color: #292929;
+  min-height: 100vh;
+  padding: 2.27rem;
+}
+.filterRide{
+  display: flex;
+  justify-content: space-between;
+}
+.filterHeader h3 {
+  color: #d0cbcb;
+  font-family: "Inter", sans-serif;
+  font-size: 1.125rem;
+  cursor: pointer;
+  padding-bottom: 5px;
+}
+.filterHeader h3:hover {
+  color: #ffffff;
+}
+.rides {
+  display: flex;
+  gap: 2rem;
+
+  /* margin-top: 2rem; */
+}
+.filter {
+  display: flex;
+  gap: 0.5rem;
+  /* margin-top: 2rem; */
+  font-size: 1rem;
+  cursor: pointer;
+  position: relative;
+  cursor: pointer;
+}
+
+
+.filter img {
+  position: relative;
+  top: 0.2rem;
+}
+.active{
+  border-bottom: 3px solid #fff;
+}
+.noRidesFound{
+  background-color: #171717;
+  height: 12.5rem;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  color: #ffffff;
+font-family: sf-regular;
+font-weight: 300;
+letter-spacing: 1px;
+word-spacing: 5px;
+
+}
